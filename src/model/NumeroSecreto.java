@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author ALUMNOS
  */
-public class NumeroSecreto {
+public final class NumeroSecreto {
     private int numero;
     private int limiteInferior;
     private int limiteSuperior;
@@ -29,7 +29,7 @@ public class NumeroSecreto {
            this.limiteSuperior = LIM_SUP_PREDET;
        }
        else{
-           this.limiteInferior = limiteSuperior;
+           this.limiteSuperior = limiteSuperior;
            this.limiteInferior = limiteInferior;
        }
     }
